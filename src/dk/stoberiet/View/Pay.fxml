@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.stoberiet.Controller.Controller">
+   <children>
+      <Text layoutX="216.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Støberiet">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Text>
+      <Button fx:id="book" layoutX="493.0" layoutY="343.0" mnemonicParsing="false" text="Book ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="214.0" layoutY="97.0" text="Indtast navnet på kortets indehaver:">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="214.0" layoutY="302.0" text="Vælg udløbsår:">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="214.0" layoutY="164.0" text="Indtast kortnummer:">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="217.0" layoutY="234.0" text="Vælg udløbsmåned:">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="214.0" layoutY="112.0" prefHeight="25.0" prefWidth="174.0" promptText="Jens Jensen" />
+      <TextField layoutX="216.0" layoutY="179.0" prefHeight="25.0" prefWidth="174.0" promptText="4059-9395-2748-9473" />
+      <SplitMenuButton layoutX="216.0" layoutY="317.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="174.0" text="År">
+        <items>
+          <MenuItem mnemonicParsing="false" text="16" />
+          <MenuItem mnemonicParsing="false" text="17" />
+            <MenuItem mnemonicParsing="false" text="18" />
+            <MenuItem mnemonicParsing="false" text="19" />
+            <MenuItem mnemonicParsing="false" text="20" />
+            <MenuItem mnemonicParsing="false" text="21" />
+            <MenuItem mnemonicParsing="false" text="22" />
+        </items>
+      </SplitMenuButton>
+      <SplitMenuButton layoutX="216.0" layoutY="249.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="174.0" text="Måned">
+        <items>
+          <MenuItem mnemonicParsing="false" text="1" />
+          <MenuItem mnemonicParsing="false" text="2" />
+            <MenuItem mnemonicParsing="false" text="3" />
+            <MenuItem mnemonicParsing="false" text="4" />
+            <MenuItem mnemonicParsing="false" text="5" />
+            <MenuItem mnemonicParsing="false" text="6" />
+            <MenuItem mnemonicParsing="false" text="7" />
+            <MenuItem mnemonicParsing="false" text="8" />
+            <MenuItem mnemonicParsing="false" text="9" />
+            <MenuItem mnemonicParsing="false" text="10" />
+            <MenuItem mnemonicParsing="false" text="11" />
+            <MenuItem mnemonicParsing="false" text="12" />
+        </items>
+      </SplitMenuButton>
+   </children>
+</Pane>

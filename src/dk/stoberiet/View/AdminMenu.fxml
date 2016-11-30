@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="rooms" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.stoberiet.Controller.Controller">
+   <children>
+      <Text layoutX="216.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Støberiet">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="105.0" fitWidth="187.0" layoutX="216.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@stoberi.PNG" />
+         </image>
+      </ImageView>
+      <ButtonBar layoutX="-30.0" layoutY="45.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+            <ButtonBar prefHeight="40.0" prefWidth="200.0" />
+            <ButtonBar prefHeight="40.0" prefWidth="200.0" />
+        </buttons>
+      </ButtonBar>
+      <Button fx:id="room" layoutX="216.0" layoutY="189.0" mnemonicParsing="false" style="-fx-focus-traversable: true" text="Lokaler">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="bookRoom" layoutX="216.0" layoutY="223.0" mnemonicParsing="false" onAction="#handleBookRoom" text="Book lokale">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="216.0" layoutY="258.0" mnemonicParsing="false" text="Ændr/slet bookning">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="allBookings" layoutX="217.0" layoutY="292.0" mnemonicParsing="false" text="Alle bookninger">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="216.0" layoutY="327.0" mnemonicParsing="false" text="ADMIN">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
