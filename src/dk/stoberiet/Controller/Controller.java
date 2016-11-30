@@ -16,6 +16,8 @@ import java.io.IOException;
 /**
  * Created by Olivi on 28-11-2016.
  */
+
+// halo im a shark
 public class Controller {
 	@FXML
 	private TextField username;
