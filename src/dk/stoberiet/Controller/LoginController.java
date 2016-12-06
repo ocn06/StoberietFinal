@@ -23,6 +23,14 @@ public class LoginController {
 	@FXML
 	private PasswordField password;
 
+
+	static private int apartmentNumber;
+
+
+	public static int getApartmentNumber() {
+		return apartmentNumber;
+	}
+
 	public void handleLogin() throws IOException {
 		String username = this.username.getText();
 		String password = this.password.getText();
@@ -34,6 +42,8 @@ public class LoginController {
 			Stage stage = (Stage) this.username.getScene().getWindow();
 			stage.setScene(new Scene(root, 600, 400));
 			stage.show();
+
+			this.apartmentNumber = Integer.parseInt(credentialModel.getUsername());
 		}
 
 		else if (credentialModel != null && credentialModel.getRole().equals(1)) {
@@ -52,4 +62,5 @@ public class LoginController {
 			alert.showAndWait();
 		}
 	}
+
 }

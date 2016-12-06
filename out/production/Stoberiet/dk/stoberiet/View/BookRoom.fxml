@@ -2,16 +2,14 @@
 
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.MenuButton?>
-<?import javafx.scene.control.MenuItem?>
-<?import javafx.scene.control.SplitMenuButton?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.stoberiet.Controller.Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.stoberiet.Controller.BookRoomController">
    <children>
       <Text layoutX="216.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Støberiet">
          <font>
@@ -25,61 +23,17 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Label layoutX="214.0" layoutY="97.0" text="Vælg dato:">
+      <Label layoutX="212.0" layoutY="147.0" text="Vælg dato:">
          <font>
             <Font name="Verdana Bold" size="12.0" />
          </font>
       </Label>
-      <DatePicker fx:id="chooseDate" layoutX="214.0" layoutY="112.0" />
-      <SplitMenuButton fx:id="rooms" layoutX="214.0" layoutY="179.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="174.0" text="Lokaler">
-        <items>
-          <MenuItem fx:id="m" mnemonicParsing="false" text="Multirum" />
-          <MenuItem fx:id="f0" mnemonicParsing="false" text="Fællesrum 0" />
-            <MenuItem fx:id="f0u" mnemonicParsing="false" text="Fællesrum 0 u. køkken" />
-            <MenuItem fx:id="f0m" mnemonicParsing="false" text="Fællesrum 0 m. køkken" />
-            <MenuItem fx:id="f1" mnemonicParsing="false" text="Fællesrum 1" />
-            <MenuItem fx:id="f2" mnemonicParsing="false" text="Fællesrum 2" />
-            <MenuItem fx:id="f3" mnemonicParsing="false" text="Fællesrum 3" />
-            <MenuItem fx:id="f4" mnemonicParsing="false" text="Fællesrum 4" />
-        </items>
-      </SplitMenuButton>
-      <Label layoutX="214.0" layoutY="302.0" text="Vælg sluttidspunkt:">
+      <DatePicker fx:id="chooseDate" layoutX="212.0" layoutY="162.0" />
+      <Label layoutX="214.0" layoutY="214.0" text="Vælg lokale:">
          <font>
             <Font name="Verdana Bold" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="216.0" layoutY="164.0" text="Vælg lokale:">
-         <font>
-            <Font name="Verdana Bold" size="12.0" />
-         </font>
-      </Label>
-      <Label layoutX="217.0" layoutY="234.0" text="Vælg starttidspunkt:">
-         <font>
-            <Font name="Verdana Bold" size="12.0" />
-         </font>
-      </Label>
-      <MenuButton fx:id="startTimeT" layoutX="216.0" layoutY="249.0" mnemonicParsing="false" text="Time">
-        <items>
-          <MenuItem mnemonicParsing="false" text="12" />
-        </items>
-      </MenuButton>
-      <MenuButton fx:id="startTimeM" layoutX="280.0" layoutY="249.0" mnemonicParsing="false" text="Minut">
-        <items>
-          <MenuItem mnemonicParsing="false" text="00" />
-          <MenuItem mnemonicParsing="false" text="15" />
-        </items>
-      </MenuButton>
-      <MenuButton fx:id="endTimeT" layoutX="216.0" layoutY="317.0" mnemonicParsing="false" text="Time">
-         <items>
-            <MenuItem mnemonicParsing="false" text="12" />
-         </items>
-      </MenuButton>
-      <MenuButton fx:id="endTimeM" layoutX="280.0" layoutY="317.0" mnemonicParsing="false" text="Minut">
-         <items>
-            <MenuItem mnemonicParsing="false" text="00" />
-            <MenuItem mnemonicParsing="false" text="15" />
-         </items>
-      </MenuButton>
       <Button fx:id="bookGoBack" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#bookGoBack" style="-fx-background-color: transparent" text=" &lt; Tilbage">
          <font>
             <Font name="Verdana Bold" size="12.0" />
@@ -88,5 +42,6 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
+      <ComboBox fx:id="chooseRoom" layoutX="210.0" layoutY="229.0" onAction="#handleChooseRoom" prefHeight="25.0" prefWidth="174.0" />
    </children>
 </Pane>

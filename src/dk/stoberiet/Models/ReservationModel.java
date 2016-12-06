@@ -11,7 +11,7 @@ public class ReservationModel {
     public String username;
     private int reservationID;
 
-    public ReservationModel(){
+    public ReservationModel(LocalDate date, String roomID, int apartmentNumber, int reservationID){
 
     }
 
@@ -21,6 +21,7 @@ public class ReservationModel {
         this.username = username;
         this.reservationID = reservationID;
     }
+
 
     public LocalDate getDate() {
         return date;
