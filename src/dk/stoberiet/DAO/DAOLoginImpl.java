@@ -12,8 +12,8 @@ public class DAOLoginImpl {
 		Connection con = null;
 		Statement st = null;
 		ResultSet rs = null;
-		String url = "jdbc:mysql://127.0.0.1:3306/test";
-		String user = "root";
+		String url = "jdbc:mysql://rds-mysql-projekt.cct8kidkcew5.eu-central-1.rds.amazonaws.com:3306/stoberiet";
+		String user = "masterkeauser";
 		String passwordConnection = "myserver";
 
 		try {

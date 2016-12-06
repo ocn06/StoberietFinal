@@ -17,7 +17,7 @@
       </Text>
       <ImageView fitHeight="105.0" fitWidth="187.0" layoutX="216.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@stoberi.PNG" />
+            <Image url="@../images/stoberi.PNG" />
          </image>
       </ImageView>
       <ButtonBar layoutX="-30.0" layoutY="45.0" prefHeight="40.0" prefWidth="200.0">
