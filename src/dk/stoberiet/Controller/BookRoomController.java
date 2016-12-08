@@ -1,5 +1,6 @@
 package dk.stoberiet.Controller;
 
+import com.sun.xml.internal.ws.org.objectweb.asm.*;
 import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 import dk.stoberiet.Main;
 import dk.stoberiet.Models.CredentialModel;
@@ -14,7 +15,9 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
+import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
@@ -30,7 +33,7 @@ import static java.awt.SystemColor.infoText;
 /**
  * Created by fede0004@stud.kea.dk on 05-12-2016.
  */
-public class BookRoomController {
+public class BookRoomController implements Initializable {
 
 	@FXML
 	private TextField username;
@@ -51,12 +54,16 @@ public class BookRoomController {
 
     private String room;
 
+    public Text apartmentNumber;
+
 
 	public void bookGoBack() throws IOException {
 		Parent root = FXMLLoader.load(getClass().getResource("../View/MainMenu.fxml"));
 		Stage stage = (Stage) this.bookGoBack.getScene().getWindow();
 		stage.setScene(new Scene(root, 600, 400));
 		stage.show();
+
+        //ShowApartmentNumberController.setApartmentNumber();
 	}
 
     public void handleChooseDate() throws  IOException {
@@ -79,38 +86,19 @@ public class BookRoomController {
         return reservation;
     }
 
-    @FXML
-    public void initialize() {
-        chooseRoom.getItems().addAll(
-        "Multirum",
-        "Fælleslokale 0",
-        "Fælleslokale 0 m. køkken",
-        "Fælleslokale 0 u. køkken",
-        "Fælleslokale 1",
-        "Fælleslokale 2",
-        "Fælleslokale 3",
-        "Fælleslokale 4"
-        );
-
-        chooseRoom.setPromptText("Vælg lokale");
-        this.roomID = String.valueOf(chooseRoom.getValue());
-    }
 
     public void handleBook () throws IOException {
 
         try {
-            FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(BookRoomController.class.getResource("../Controller/Terms.fxml"));
-            VBox vb = (VBox) loader.load();
-
-            Stage stage = new Stage();
-            stage.setTitle("Regler for bookning");
+            //FXMLLoader loader = new FXMLLoader();
+            //loader.setLocation(BookRoomController.class.getResource("../Controller/Terms.fxml"));
+            //VBox vb = (VBox) loader.load();
+            Parent root = FXMLLoader.load(getClass().getResource("C:\\Users\\Olivi\\Documents\\KEA\\2_semester\\Stoberiet\\src\\dk\\stoberiet\\Controller\\Terms.fxml"));
+            Stage stage = (Stage)book.getScene().getWindow();
+            //stage.setTitle("Regler for bookning");
             stage.initModality(Modality.WINDOW_MODAL);
-            Scene scene = new Scene(vb);
-            stage.setScene(scene);
-
+            stage.setScene(new Scene(root));
             stage.showAndWait();
-            stage.
         }
 
         catch (IOException e) {
@@ -118,11 +106,21 @@ public class BookRoomController {
         }
     }
 
-    public void handleAcceptTerms () throws IOException {
 
-    }
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        chooseRoom.getItems().addAll(
+                "Multirum",
+                "Fælleslokale 0",
+                "Fælleslokale 0 m. køkken",
+                "Fælleslokale 0 u. køkken",
+                "Fælleslokale 1",
+                "Fælleslokale 2",
+                "Fælleslokale 3",
+                "Fælleslokale 4"
+        );
 
-    public void handleCancelTerms () throws IOException {
-
+        chooseRoom.setPromptText("Vælg lokale");
+        this.roomID = String.valueOf(chooseRoom.getValue());
     }
 }

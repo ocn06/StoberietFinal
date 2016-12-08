@@ -43,7 +43,9 @@ public class LoginController {
 			stage.setScene(new Scene(root, 600, 400));
 			stage.show();
 
-			this.apartmentNumber = Integer.parseInt(credentialModel.getUsername());
+            //ShowApartmentNumberController.setApartmentNumber(credentialModel.getUsername());
+
+			//this.apartmentNumber = Integer.parseInt(credentialModel.getUsername());
 		}
 
 		else if (credentialModel != null && credentialModel.getRole().equals(1)) {

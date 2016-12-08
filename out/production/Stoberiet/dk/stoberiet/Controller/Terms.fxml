@@ -19,11 +19,11 @@
       <TextArea editable="false" layoutX="92.0" layoutY="76.0" prefHeight="253.0" prefWidth="418.0" text="&#10;- Oprydning og rengøring af lokale indenfor bookningstid&#10;&#10;- Afbestilling af lokale senest to dage inden for tilbagebetaling af gebyr&#10;&#10;- hfdkfjdojs dfsjdo djfosgd&#10;&#10;- jfdosg pskdgosjdg sdogjosdgjåsajgd&#10;&#10;- jfodg psorjgipgh psljdfægithhw r&#10;&#10;" />
       <ButtonBar layoutX="386.0" layoutY="346.0" prefHeight="40.0" prefWidth="200.0">
         <buttons>
-          <Button fx:id="Accept" mnemonicParsing="false" onAction="#handleAcceptTerms" text="Acceptér" underline="true">
+          <Button fx:id="accept" mnemonicParsing="false" text="Acceptér" underline="true">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></Button>
-            <Button fx:id="cancel" mnemonicParsing="false" onAction="#handleCancelTerms" text="Annuller">
+            <Button fx:id="cancel" mnemonicParsing="false"  text="Annuller">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></Button>
@@ -34,5 +34,10 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
+      <Text layoutX="547.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Text>
    </children>
 </Pane>
