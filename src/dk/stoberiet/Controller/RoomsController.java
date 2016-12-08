@@ -15,7 +15,7 @@ public class RoomsController {
 	public Button roomsGoBack;
 
 	public void roomsGoBack() throws IOException {
-		Parent root = FXMLLoader.load(getClass().getResource("../View/MainMenu.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("MainMenu.fxml"));
 		Stage stage = (Stage) this.roomsGoBack.getScene().getWindow();
 		stage.setScene(new Scene(root, 600, 400));
 		stage.show();

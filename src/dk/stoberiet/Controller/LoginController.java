@@ -38,7 +38,7 @@ public class LoginController {
 		Login login = new LoginImplementation();
 		CredentialModel credentialModel = login.fetchUser(username, password);
 		if (credentialModel != null && credentialModel.getRole().equals(0)) {
-			Parent root = FXMLLoader.load(getClass().getResource("../View/MainMenu.fxml"));
+			Parent root = FXMLLoader.load(getClass().getResource("MainMenu.fxml"));
 			Stage stage = (Stage) this.username.getScene().getWindow();
 			stage.setScene(new Scene(root, 600, 400));
 			stage.show();
@@ -47,7 +47,7 @@ public class LoginController {
 		}
 
 		else if (credentialModel != null && credentialModel.getRole().equals(1)) {
-			Parent root = FXMLLoader.load(getClass().getResource("../View/MainMenuAdmin.fxml"));
+			Parent root = FXMLLoader.load(getClass().getResource("MainMenuAdmin.fxml"));
 			Stage stage = (Stage) this.username.getScene().getWindow();
 			stage.setScene(new Scene(root, 600, 400));
 			stage.show();
