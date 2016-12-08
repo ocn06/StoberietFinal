@@ -60,7 +60,7 @@ public class BookRoomController {
 	}
 
     public void handleChooseDate() throws  IOException {
-        this.date = datePicker.getValue();
+        date = datePicker.getValue();
         System.out.println(date);
 
     }
@@ -73,7 +73,7 @@ public class BookRoomController {
     public ReservationModel handleBookRoom() throws IOException {
 
         ReservationModel reservation = new ReservationModel(this.date, this.roomID, LoginController.getApartmentNumber(), reservationID);
-        this.handleChooseDate();
+        this.date = datePicker.getValue();
         this.roomID = room;
 
         return reservation;
@@ -94,7 +94,6 @@ public class BookRoomController {
 
         chooseRoom.setPromptText("Vælg lokale");
         this.roomID = String.valueOf(chooseRoom.getValue());
-
     }
 
     public void handleBook () throws IOException {
@@ -111,6 +110,7 @@ public class BookRoomController {
             stage.setScene(scene);
 
             stage.showAndWait();
+            stage.
         }
 
         catch (IOException e) {

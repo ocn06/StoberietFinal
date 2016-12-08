@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb9abea-38ba-418f-b80f-e1b467dcc990" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/DAO/DAOReservation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/Terms.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/View/BookRoom.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/View/Terms.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controller/Terms.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOReservation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/View/BookRoom.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/View/Terms.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoomController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoomController.java" />
     </list>
     <ignored path="Stoberiet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +37,8 @@
       <file leaf-file-name="BookRoomController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoomController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+            <state relative-caret-position="275">
+              <caret line="109" column="34" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,6 +154,9 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="o1" target-remote="origin" target-branch="master" />
+    </push-targets>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -815,7 +828,7 @@
       <workItem from="1481028528658" duration="4404000" />
       <workItem from="1481151369262" duration="6239000" />
       <workItem from="1481190860953" duration="2264000" />
-      <workItem from="1481193157452" duration="2662000" />
+      <workItem from="1481193157452" duration="3778000" />
     </task>
     <task id="LOCAL-00001" summary="ReservationModel&#10;BookRoomController&#10;">
       <created>1481018004920</created>
@@ -831,11 +844,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481195106662</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Forsøg">
+      <created>1481195895325</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1481195895325</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36190000" />
+    <option name="totallyTimeSpent" value="37306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -932,13 +952,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoomController.java</url>
-          <line>83</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
@@ -1364,8 +1377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoomController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+        <state relative-caret-position="275">
+          <caret line="109" column="34" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
