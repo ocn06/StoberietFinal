@@ -1,67 +1,73 @@
 package dk.stoberiet.Models;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
-/**
- * Created by fede0004@stud.kea.dk on 05-12-2016.
- */
 public class ReservationModel {
-    private LocalDate date;
-    private String roomID;
-    public String username;
-    private int reservationID;
+    private Integer id;
+    private LocalDateTime start;
+    private LocalDateTime end;
+    private LocalDateTime timestamp;
+    private int userId;
+    private int roomId;
 
-    public ReservationModel(LocalDate date, String roomID, int apartmentNumber, int reservationID){
-
+    public ReservationModel(Integer id, LocalDateTime start, LocalDateTime end, LocalDateTime timestamp, int userId, int roomId){
+        this.id = id;
+        this.start = start;
+        this.end = end;
+        this.timestamp = timestamp;
+        this.userId = userId;
+        this.roomId = roomId;
     }
 
-    public ReservationModel(LocalDate date, String roomID, String username, int reservationID) {
-        this.date = date;
-        this.roomID = roomID;
-        this.username = username;
-        this.reservationID = reservationID;
+    public ReservationModel(LocalDateTime start, LocalDateTime end, int userId, int roomId){
+        this(null, start, end, null, userId, roomId);
     }
 
-
-    public LocalDate getDate() {
-        return date;
+    public Integer getId() {
+        return id;
     }
 
-    public void setDate(LocalDate date) {
-        this.date = date;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-    public String getRoomID() {
-        return roomID;
+    public LocalDateTime getStart() {
+        return start;
     }
 
-    public void setRoomID(String roomID) {
-        this.roomID = roomID;
+    public void setStart(LocalDateTime start) {
+        this.start = start;
     }
 
-    public String getUsername() {
-        return username;
+    public LocalDateTime getEnd() {
+        return end;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setEnd(LocalDateTime end) {
+        this.end = end;
     }
 
-    public int getReservationID() {
-        return reservationID;
+    public LocalDateTime getTimestamp() {
+        return timestamp;
     }
 
-    public void setReservationID(int reservationID) {
-        this.reservationID = reservationID;
+    public void setTimestamp(LocalDateTime timestamp) {
+        this.timestamp = timestamp;
     }
 
-    @Override
-    public String toString() {
-        return "Reservation{" +
-                "date=" + date +
-                ", roomID=" + roomID +
-                ", username='" + username + '\'' +
-                ", reservationID=" + reservationID +
-                '}';
+    public int getUserId() {
+        return userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
+
+    public int getRoomId() {
+        return roomId;
+    }
+
+    public void setRoomId(int roomId) {
+        this.roomId = roomId;
     }
 }

@@ -1,8 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bb9abea-38ba-418f-b80f-e1b467dcc990" name="Default" comment="olivia">
+    <list default="true" id="1bb9abea-38ba-418f-b80f-e1b467dcc990" name="Default" comment="initialCommit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_40_bin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/Authentication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/AuthenticationImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/CheckedAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/CheckedFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/DatabaseHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/MySqlDatabaseHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/ReservationDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/ReservationDAOImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/RoomDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/RoomDAOImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/UserDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/UserDAOImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Models/RoleType.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/BusinessLogic/Login.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/BusinessLogic/LoginImplementation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/BookRoom.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/BookRoomController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/Login.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/LoginController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/MainMenuController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/Pay.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/RoomsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/Terms.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/DAO/DAOLogin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/DAO/DAOLoginImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/DAO/DAOReservation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Models/CredentialModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/Login.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/LoginImplementation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenu.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenuAdmin.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/MyBookingsController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/Rooms.fxml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOLogin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOLoginImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOReservation.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/MainMenu.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/MainMenu.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/MainMenuAdmin.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/MainMenuAdmin.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/Rooms.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/Rooms.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoom.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/BookRoom.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoomController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/BookRoomController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/Login.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/Login.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/LoginController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/LoginController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenuController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/MainMenuController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/MyBookings.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/MyBookings.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/Pay.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/Pay.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/RoomsController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/RoomsController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/ShowApartmentNumberController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/ShowApartmentNumberController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/Terms.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/Terms.fxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/TermsController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/TermsController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Models/CredentialModel.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Models/UserModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Main.class" afterPath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Models/ReservationModel.class" afterPath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Models/ReservationModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Models/RoomModel.class" afterPath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Models/RoomModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stoberiet.iml" afterPath="$PROJECT_DIR$/Stoberiet.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Main.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Models/ReservationModel.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Models/ReservationModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Models/RoomModel.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Models/RoomModel.java" />
     </list>
     <ignored path="Stoberiet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +85,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="BookRoomController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoomController.java">
+        <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/BookRoomController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+            <state relative-caret-position="700">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,61 +96,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DAOLoginImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOLoginImpl.java">
+      <file leaf-file-name="MySqlDatabaseHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Data/MySqlDatabaseHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="27" selection-end-column="36" />
+            <state relative-caret-position="450">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <marker date="1481017135806" expanded="true" signature="677:790" ph="SELECT anumb... users" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DAOReservation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOReservation.java">
+      <file leaf-file-name="RoomModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Models/RoomModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="625">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
               <folding>
-                <element signature="e#1548#1549#0" expanded="true" />
-                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MainMenuController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenuController.java">
+        <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/MainMenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="350">
+              <caret line="24" column="87" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="87" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoomsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/RoomsController.java">
+      <file leaf-file-name="ShowApartmentNumberController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/ShowApartmentNumberController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="125">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyBookingsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/MyBookingsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1481227830801" expanded="true" signature="827:943" ph="SELECT reser... reservation" />
-                <marker date="1481227830801" expanded="true" signature="827:950" ph="SELECT reser... reservation" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -101,6 +147,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -133,21 +180,53 @@
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controller/RoomsController.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/View/Login.fxml" />
-        <option value="$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOLoginImpl.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/login/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/dk/stoberiet/Models/ReservationModel.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/View/BookRoom.fxml" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controller/showApartmentNumber.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controller/showApartmentNumberController.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controller/TermsController.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Main.java" />
-        <option value="$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOReservation.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenuController.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controller/Terms.fxml" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoomController.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controller/ShowApartmentNumberController.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controller/MyBookingsController.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Controllers/ShowApartmentNumberController.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Controllers/TermsController.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Models/CredentialModel.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/IDatabaseHelper.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/IUserDAO.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOLoginImpl.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/LoginImplementation.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Models/UserModel.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Models/RoleType.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOReservation.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/CheckedFunction2.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/CheckedAction.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/CheckedFunction3.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/CheckedFunction.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/RoomDAO.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/DatabaseHelper.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/RoomDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/ReservationDAO.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/ReservationDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Views/Login.fxml" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Models/RoomModel.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Controllers/MyBookingsController.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/Login.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/LoginImpl.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/Authentication.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/AuthenticationImpl.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Controllers/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Models/ReservationModel.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/MySqlDatabaseHelper.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Controllers/MainMenuController.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Views/BookRoom.fxml" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Views/Terms.fxml" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Controllers/BookRoomController.java" />
       </list>
     </option>
   </component>
@@ -158,10 +237,31 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
+    <option name="x" value="-10" />
     <option name="width" value="1924" />
-    <option name="height" value="1042" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>unused</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -188,8 +288,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,7 +342,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DAO" />
+              <option name="myItemId" value="Views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,23 +364,98 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stoberiet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stoberiet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stoberiet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stoberiet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stoberiet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stoberiet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stoberiet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stoberiet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stoberiet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BusinessLogic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="prop_add_unversioned_files" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jdk1.8.0_112/demo/javafx_samples/src/MandelbrotSet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\I401555\IdeaProjects\Stoberiet\src\dk\stoberiet\Views" />
       <recent name="C:\Users\NyBruger\Documents\Data\Projekter\Stoberiet\src\dk\stoberiet\Controller" />
       <recent name="C:\Users\NyBruger\Documents\Data\Projekter\Stoberiet\src\dk\stoberiet\View" />
       <recent name="C:\Users\NyBruger\Documents\Data\Projekter\Stoberiet\src\dk\stoberiet\login" />
@@ -314,6 +487,7 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -562,27 +736,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
@@ -674,34 +827,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -732,6 +857,34 @@
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -756,6 +909,8 @@
       <workItem from="1481203803106" duration="5348000" />
       <workItem from="1481225994382" duration="3558000" />
       <workItem from="1481382956717" duration="508000" />
+      <workItem from="1481385145291" duration="58329000" />
+      <workItem from="1481497075473" duration="111000" />
     </task>
     <task id="LOCAL-00001" summary="ReservationModel&#10;BookRoomController&#10;">
       <created>1481018004920</created>
@@ -796,37 +951,50 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50619000" />
+    <option name="totallyTimeSpent" value="109059000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1924" height="1042" extended-state="0" />
-    <editor active="true" />
+    <frame x="-10" y="0" width="1924" height="1030" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33412606" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38689217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.174482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17467248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3388823" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -855,6 +1023,9 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -890,11 +1061,12 @@
     <MESSAGE value="ReservationModel&#10;BookRoomController&#10;" />
     <MESSAGE value="Forsøg" />
     <MESSAGE value="olivia" />
-    <option name="LAST_COMMIT_MESSAGE" value="olivia" />
+    <MESSAGE value="initialCommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initialCommit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -903,256 +1075,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoom.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Models/ReservationModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoomController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/RoomsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOLoginImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <marker date="1481017135806" expanded="true" signature="677:790" ph="SELECT anumb... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoomController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/RoomsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOLoginImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <marker date="1481017135806" expanded="true" signature="677:790" ph="SELECT anumb... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Models/CredentialModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Models/RoomModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/Admin.java" />
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/Resident.java" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_71/src.zip!/java/net/URLClassLoader.java" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_71/jre/lib/rt.jar!/sun/misc/Launcher.class" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_71/src.zip!/java/lang/ClassLoader.java" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_71/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/images/stoberi.PNG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/Rooms.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/Pay.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/Login.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Models/ReservationModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/View/Terms.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/MyBookings.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenuAdmin.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenuAdmin.fxml" />
     <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1161,65 +1084,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/TermsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="96" selection-start-line="17" selection-start-column="96" selection-end-line="17" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/Terms.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoom.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenu.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/RoomsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/Terms.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoom.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenu.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenuController.java" />
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/RoomsController.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -1227,64 +1096,359 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/ShowApartmentNumberController.java">
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/LoginController.java" />
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoomController.java" />
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOLogin.java" />
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOLoginImpl.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/javafx-src.zip!/com/sun/glass/ui/View.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/EnumConstantNotPresentException.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/sql/PreparedStatement.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/sql/ResultSet.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/function/Function.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/lang/AutoCloseable.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/sql/Wrapper.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/sql/Connection.java" />
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Data/CheckedAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Models/RoleType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#138#139#0" expanded="false" />
+            <element signature="e#172#173#0" expanded="false" />
+            <element signature="e#201#202#0" expanded="false" />
+            <element signature="e#229#230#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Data/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOLoginImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Data/CheckedFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Data/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="23" column="107" selection-start-line="23" selection-start-column="107" selection-end-line="23" selection-end-column="107" />
           <folding>
-            <marker date="1481017135806" expanded="true" signature="677:790" ph="SELECT anumb... users" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#341#342#0" expanded="false" />
+            <element signature="e#393#394#0" expanded="false" />
+            <element signature="e#421#422#0" expanded="false" />
+            <element signature="e#468#469#0" expanded="false" />
+            <element signature="e#1333#1344#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOReservation.java">
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Data/DatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#1548#1549#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/MyBookingsController.java">
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Data/RoomDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Data/RoomDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#292#293#0" expanded="false" />
+            <element signature="e#344#345#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
+            <element signature="e#420#421#0" expanded="false" />
+            <element signature="e#862#873#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Data/ReservationDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#193#194#0" expanded="false" />
+            <element signature="e#245#246#0" expanded="false" />
+            <element signature="e#280#281#0" expanded="false" />
+            <element signature="e#327#328#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Data/ReservationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOReservation.java" />
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Models/UserModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Views/Rooms.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Models/RoomModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/MyBookingsController.java" />
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/ShowApartmentNumberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/Authentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/AuthenticationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Models/ReservationModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+          <folding>
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/awt/Checkbox.java" />
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/MainMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="24" column="87" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Views/BookRoom.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Views/Login.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Data/MySqlDatabaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1481227830801" expanded="true" signature="827:943" ph="SELECT reser... reservation" />
-            <marker date="1481227830801" expanded="true" signature="827:950" ph="SELECT reser... reservation" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoomController.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/javafx-src.zip!/javafx/scene/control/CheckBox.java" />
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/TermsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+        <state relative-caret-position="238">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Views/MyBookings.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Views/Terms.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="260" selection-start-line="11" selection-start-column="260" selection-end-line="11" selection-end-column="260" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/BookRoomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Stoberiet</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-5.1.40-bin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

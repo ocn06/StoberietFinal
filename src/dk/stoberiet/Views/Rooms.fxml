@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1360.0" prefWidth="619.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.stoberiet.Controllers.RoomsController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1357.0" prefWidth="582.0">
+         <children>
+            <Text layoutX="216.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Støberiet">
+               <font>
+                  <Font name="System Bold" size="38.0" />
+               </font>
+            </Text>
+            <Label layoutX="268.0" layoutY="92.0" text="Multirum">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextArea accessibleRole="TEXT" editable="false" layoutX="100.0" layoutY="107.0" pickOnBounds="false" prefHeight="127.0" prefWidth="398.0" text="Multirummet ligger i stueetagen.&#10;Rummet er grundet kun én brandudgang pt. begrænset til 10 &#10;personer.&#10;Rummet indeholder 2 sammenklappelige spiseborde med sorte &#10;plader og ben, samt 12 sorte stole. Derudover indeholder rummet en&#10;bardesk, en sofa, 2 fatboys og 2 sofaborde." />
+            <Label layoutX="260.0" layoutY="242.0" text="Fællerum 0">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextArea accessibleRole="TEXT" editable="false" layoutX="99.0" layoutY="257.0" prefHeight="145.0" prefWidth="398.0" text="Fællesrum 0 ligger i stueetagen. &#10;Rummet har to døre. I rummet er et køkken med køleskab og ovn. &#10;Derudover indeholder rummet 9 sammenklappelige spiseborde med&#10;sorte plader og ben med 40 sorte og 20 røde stole, samt 3 sofaer og &#10;3 sofaborde.&#10;Rummet kan deles i to - fællesrum 0 m. køkken og fællesrum 0 u. &#10;køkken.&#10;" />
+            <Label layoutX="220.0" layoutY="410.0" text="Fællesrum 0 m. køkken">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextArea accessibleRole="TEXT" editable="false" layoutX="99.0" layoutY="425.0" prefHeight="125.0" prefWidth="398.0" text="Fællesrum 0 m. køkken ligger i stueetagen og er en mindre del af &#10;fællesrum 0.&#10;Rummet har en dør. I rummet er et køkken med køleskab og ovn. &#10;Derudover indeholder rummet 6 sammenklappelige spiseborde med&#10;sorte plader og ben og 36 sorte og røde stole, samt en sofa og et &#10;sofabord." />
+            <Label layoutX="219.0" layoutY="563.0" text="Fællesrum 0 u. køkken">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextArea accessibleRole="TEXT" editable="false" layoutX="99.0" layoutY="578.0" prefHeight="125.0" prefWidth="398.0" text="Fællesrum 0 u. køkken ligger i stueetagen og er en mindre del af &#10;fællesrum 0.&#10;Rummet har en dør. I rummet er et køkken med køleskab og ovn. &#10;Rummet indeholder 3 sammenklappelige spise-&#10;borde med sorte plader og ben og 19 sorte og røde stole, samt 2&#10;sofaer og 2 sofaborde." />
+            <Label layoutX="254.0" layoutY="716.0" text="Fællesrum 1">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextArea accessibleRole="TEXT" editable="false" layoutX="100.0" layoutY="731.0" prefHeight="125.0" prefWidth="398.0" text="Fællesrum 1 ligger på 1. sal.&#10;Rummet har en dør, samt altan. I rummet er et køkken med køleskab &#10;og ovn. Rummet indeholder 2 sammenklappelige spiseborde med sorte&#10;plader og ben og 12 grå stole, samt en sofa, 2 fatboys og et sofabord." />
+            <Label layoutX="254.0" layoutY="874.0" text="Fællesrum 2">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextArea accessibleRole="TEXT" editable="false" layoutX="100.0" layoutY="889.0" prefHeight="125.0" prefWidth="398.0" text="Fællesrum 2 ligger på 2. sal.&#10;Rummet har en dør, samt altan. I rummet er et køkken med køleskab &#10;og ovn. Rummet indeholder 2 sammenklappelige spiseborde med sorte&#10;plader og ben og 12 limegrønne stole, samt en sofa, 2 fatboys og et &#10;sofabord." />
+            <Label layoutX="256.0" layoutY="1030.0" text="Fællesrum 3">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextArea accessibleRole="TEXT" editable="false" layoutX="100.0" layoutY="1045.0" prefHeight="125.0" prefWidth="398.0" text="Fællesrum 3 ligger på 3. sal.&#10;Rummet har en dør, samt altan. I rummet er et køkken med køleskab&#10;og ovn. Rummet indeholder 2 sammenklappelige spiseborde med sorte&#10;plader og ben og 12 blå stole, samt en sofa, 2 fatboys og et sofabord." />
+            <Label layoutX="254.0" layoutY="1182.0" text="Fællesrum 4">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextArea accessibleRole="TEXT" editable="false" layoutX="97.0" layoutY="1197.0" prefHeight="125.0" prefWidth="398.0" text="Fællesrum 4 ligger på 4. sal.&#10;Rummet har en dør, samt altan. I rummet er et køkken med køleskab &#10;og ovn. Rummet indeholder 2 sammenklappelige spiseborde med sorte&#10;plader og ben og 12 lilla stole, samt en sofa, 2 fatboys og et sofabord." />
+            <Button fx:id="roomsGoBack" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#roomsGoBack" style="-fx-background-color: transparent" text=" &lt; Tilbage">
+               <font>
+                  <Font name="Verdana Bold" size="12.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
