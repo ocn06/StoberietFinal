@@ -1,68 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bb9abea-38ba-418f-b80f-e1b467dcc990" name="Default" comment="initialCommit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_40_bin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/Authentication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/AuthenticationImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/CheckedAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/CheckedFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/DatabaseHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/MySqlDatabaseHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/ReservationDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/ReservationDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/RoomDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/RoomDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/UserDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/UserDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Models/RoleType.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/BusinessLogic/Login.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/BusinessLogic/LoginImplementation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/BookRoom.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/BookRoomController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/Login.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/MainMenuController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/Pay.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/RoomsController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/Terms.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/DAO/DAOLogin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/DAO/DAOLoginImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/DAO/DAOReservation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Models/CredentialModel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/Login.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/LoginImplementation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenu.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenuAdmin.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/MyBookingsController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/Rooms.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOLogin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOLoginImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/DAO/DAOReservation.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/MainMenu.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/MainMenu.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/MainMenuAdmin.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/MainMenuAdmin.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Controller/Rooms.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/Rooms.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoom.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/BookRoom.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/BookRoomController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/BookRoomController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/Login.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/Login.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/LoginController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/LoginController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenuController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/MainMenuController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/MyBookings.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/MyBookings.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/Pay.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/Pay.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/RoomsController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/RoomsController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/ShowApartmentNumberController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/ShowApartmentNumberController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/Terms.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/Terms.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controller/TermsController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/TermsController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Models/CredentialModel.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Models/UserModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Main.class" afterPath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Models/ReservationModel.class" afterPath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Models/ReservationModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Models/RoomModel.class" afterPath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Models/RoomModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="1bb9abea-38ba-418f-b80f-e1b467dcc990" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stoberiet.iml" afterPath="$PROJECT_DIR$/Stoberiet.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Main.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Models/ReservationModel.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Models/ReservationModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Models/RoomModel.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Models/RoomModel.java" />
     </list>
     <ignored path="Stoberiet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,11 +27,9 @@
       <file leaf-file-name="BookRoomController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/BookRoomController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -910,7 +848,7 @@
       <workItem from="1481225994382" duration="3558000" />
       <workItem from="1481382956717" duration="508000" />
       <workItem from="1481385145291" duration="58329000" />
-      <workItem from="1481497075473" duration="111000" />
+      <workItem from="1481497075473" duration="379000" />
     </task>
     <task id="LOCAL-00001" summary="ReservationModel&#10;BookRoomController&#10;">
       <created>1481018004920</created>
@@ -947,11 +885,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481231802055</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initial commit">
+      <created>1481497221256</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1481497221256</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109059000" />
+    <option name="totallyTimeSpent" value="109327000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -977,7 +922,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17467248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17467248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1062,7 +1007,8 @@
     <MESSAGE value="Forsøg" />
     <MESSAGE value="olivia" />
     <MESSAGE value="initialCommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialCommit" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1366,11 +1312,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/BookRoomController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
