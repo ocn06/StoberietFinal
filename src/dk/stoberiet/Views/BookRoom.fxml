@@ -50,7 +50,7 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <TextArea editable="false" layoutX="210.0" layoutY="228.0" prefHeight="111.0" prefWidth="231.0" text="- Oprydning og rengøring af lokale&#10;indenfor bookningstid&#10;&#10;- Afbestilling af lokale senest to dage&#10;inden for tilbagebetaling af gebyr&#10;&#10;- hfdkfjdojs dfsjdo djfosgd&#10;&#10;- jfdosg pskdgosjdg sdogjosdgjåsajgd&#10;" />
+      <TextArea editable="false" layoutX="210.0" layoutY="228.0" prefHeight="111.0" prefWidth="231.0" text="- Oprydning og rengøring af lokale&#10;indenfor bookningstid&#10;&#10;- Afbestilling af lokale senest to dage&#10;inden for tilbagebetaling af gebyr&#10;&#10;- Rummet er booket &#10;&#10;- jfdosg pskdgosjdg sdogjosdgjåsajgd&#10;" />
       <Label layoutX="215.0" layoutY="213.0" text="Betingelser:">
          <font>
             <Font name="Verdana Bold" size="12.0" />

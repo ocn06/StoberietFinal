@@ -1,7 +1,6 @@
-package dk.stoberiet.Data;
+package dk.stoberiet.DAO;
 
 import dk.stoberiet.Models.ReservationModel;
-import javafx.fxml.Initializable;
 
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
@@ -43,7 +42,6 @@ public class ReservationDAOImpl implements ReservationDAO {
         if (timestamp != null) {
             return timestamp.toLocalDateTime();
         }
-
         return null;
     }
 
@@ -62,15 +60,16 @@ public class ReservationDAOImpl implements ReservationDAO {
     }
 
     @Override
-    public boolean isReservationDateAvailable(LocalDateTime start, LocalDateTime end) {
+    public boolean isReservationDateAvailable(LocalDateTime start, LocalDateTime end, int roomId) {
 
         // TODO ADD ROOM ID CHECK
 
         Integer count = this.databaseHelper.<Integer>querySingle(
-                "SELECT COUNT(1) FROM reservations WHERE(start < ? AND end > ?)",
+                "SELECT COUNT(1) FROM reservations WHERE(start < ? AND end > ? AND roomId = ?)",
                 (statement) -> {
                     statement.setTimestamp(1, Timestamp.valueOf(end));
                     statement.setTimestamp(2, Timestamp.valueOf(start));
+                    statement.setInt(3, roomId);
                 },
                 (resultSet) -> resultSet.getInt(1));
 

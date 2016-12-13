@@ -1,4 +1,4 @@
-package dk.stoberiet.Data;
+package dk.stoberiet.DAO;
 
 import dk.stoberiet.Models.RoomModel;
 

@@ -1,4 +1,4 @@
-package dk.stoberiet.Data;
+package dk.stoberiet.DAO;
 
 @FunctionalInterface
 public interface CheckedFunction<T, R, E extends Throwable> {

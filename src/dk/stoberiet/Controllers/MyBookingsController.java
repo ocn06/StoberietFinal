@@ -2,9 +2,9 @@ package dk.stoberiet.Controllers;
 
 import dk.stoberiet.BusinessLogic.Authentication;
 import dk.stoberiet.BusinessLogic.AuthenticationImpl;
-import dk.stoberiet.Data.ReservationDAO;
-import dk.stoberiet.Data.ReservationDAOImpl;
-import dk.stoberiet.Data.RoomDAO;
+import dk.stoberiet.DAO.ReservationDAO;
+import dk.stoberiet.DAO.ReservationDAOImpl;
+import dk.stoberiet.DAO.RoomDAO;
 import dk.stoberiet.Models.ReservationModel;
 import dk.stoberiet.Models.UserModel;
 import javafx.fxml.FXML;
@@ -80,6 +80,6 @@ public class MyBookingsController implements Initializable {
     }
 
     private String getBookingLine(ReservationModel reservation) {
-        return "ReservationsID: " + reservation.getId() + "\n Starttidspunkt: " + reservation.getStart() + "\n Sluttidspunkt: " + reservation.getEnd() + "\n Bruger: " + this.authentication.getLoggedInUser().getUsername()+ "\n\n";
+        return "ReservationsID: " + reservation.getId() + "\n Starttidspunkt: " + reservation.getStart() + "\n Sluttidspunkt: " + reservation.getEnd() + "\n Rum: " + reservation.getRoomId() + "\n Bruger: " + this.authentication.getLoggedInUser().getUsername()+ "\n\n";
     }
 }

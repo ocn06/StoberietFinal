@@ -1,7 +1,7 @@
 package dk.stoberiet.BusinessLogic;
 
-import dk.stoberiet.Data.UserDAO;
-import dk.stoberiet.Data.UserDAOImpl;
+import dk.stoberiet.DAO.UserDAO;
+import dk.stoberiet.DAO.UserDAOImpl;
 import dk.stoberiet.Models.UserModel;
 
 public class AuthenticationImpl implements Authentication {

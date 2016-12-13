@@ -1,4 +1,4 @@
-package dk.stoberiet.Data;
+package dk.stoberiet.DAO;
 
 import dk.stoberiet.Models.ReservationModel;
 
@@ -8,5 +8,5 @@ import java.util.List;
 public interface ReservationDAO {
     List<ReservationModel> getAllReservationsByUserId(int userId);
     ReservationModel createReservation(int userId, int roomId, LocalDateTime start, LocalDateTime end);
-    boolean isReservationDateAvailable(LocalDateTime start, LocalDateTime end);
+    boolean isReservationDateAvailable(LocalDateTime start, LocalDateTime end, int roomId);
 }

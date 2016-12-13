@@ -2,13 +2,11 @@ package dk.stoberiet.Controllers;
 
 import dk.stoberiet.BusinessLogic.Authentication;
 import dk.stoberiet.BusinessLogic.AuthenticationImpl;
-import dk.stoberiet.Data.ReservationDAO;
-import dk.stoberiet.Data.ReservationDAOImpl;
-import dk.stoberiet.Data.RoomDAO;
-import dk.stoberiet.Data.RoomDAOImpl;
-import dk.stoberiet.Models.ReservationModel;
+import dk.stoberiet.DAO.ReservationDAO;
+import dk.stoberiet.DAO.ReservationDAOImpl;
+import dk.stoberiet.DAO.RoomDAO;
+import dk.stoberiet.DAO.RoomDAOImpl;
 import dk.stoberiet.Models.RoomModel;
-import dk.stoberiet.Models.UserModel;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -76,7 +74,7 @@ public class BookRoomController implements Initializable {
 	    // TODO : GUARD AGAINST VALUES NOT BEING SELECTED ELSE THIS WILL THROW AN EXCEPTION
 
         LocalDateTime start = this.selectDateDatePicker.getValue().atStartOfDay();
-        LocalDateTime end = this.selectDateDatePicker.getValue().atStartOfDay().plusHours(24);
+        LocalDateTime end = this.selectDateDatePicker.getValue().atStartOfDay().plusHours(23).plusMinutes(59).plusSeconds(59);
 	    int userId = this.authentication.getLoggedInUser().getId();
 	    int roomId = this.selectRoomComboBox.getValue().getId();
 
@@ -89,12 +87,12 @@ public class BookRoomController implements Initializable {
             return false;
         }
 
-        if (!this.reservationDAO.isReservationDateAvailable(start, end)) {
+        if (!this.reservationDAO.isReservationDateAvailable(start, end, roomId)) {
             WindowUtility.showWindow(
                     Alert.AlertType.ERROR,
                     "Oops",
-                    "Datoen er taget",
-                    "Prøv med en ny dato");
+                    "Lokalet er optaget på givne dato",
+                    "Prøv med en ny dato eller lokale");
             return false;
         }
 

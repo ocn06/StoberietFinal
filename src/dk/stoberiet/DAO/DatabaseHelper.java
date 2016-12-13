@@ -1,4 +1,4 @@
-package dk.stoberiet.Data;
+package dk.stoberiet.DAO;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

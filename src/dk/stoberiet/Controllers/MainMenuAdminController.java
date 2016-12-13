@@ -2,8 +2,8 @@ package dk.stoberiet.Controllers;
 
 import dk.stoberiet.BusinessLogic.Authentication;
 import dk.stoberiet.BusinessLogic.AuthenticationImpl;
-import dk.stoberiet.Data.RoomDAO;
-import dk.stoberiet.Data.RoomDAOImpl;
+import dk.stoberiet.DAO.RoomDAO;
+import dk.stoberiet.DAO.RoomDAOImpl;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.text.Text;
