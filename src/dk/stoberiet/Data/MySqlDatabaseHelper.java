@@ -9,7 +9,7 @@ public class MySqlDatabaseHelper implements DatabaseHelper {
     @Override
     public Connection getConnection() throws SQLException {
 
-        try {
+        /*try {
             Class.forName("com.mysql.jdbc.Driver").newInstance();
         } catch (InstantiationException e) {
             e.printStackTrace();
@@ -17,7 +17,7 @@ public class MySqlDatabaseHelper implements DatabaseHelper {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
-        }
+        }*/
 
         String connectionUrl = "jdbc:mysql://rds-mysql-projekt.cct8kidkcew5.eu-central-1.rds.amazonaws.com:3306/stoberiet";
         String connectionUsername = "masterkeauser";

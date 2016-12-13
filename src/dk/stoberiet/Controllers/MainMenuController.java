@@ -1,5 +1,10 @@
 package dk.stoberiet.Controllers;
 
+import dk.stoberiet.BusinessLogic.Authentication;
+import dk.stoberiet.BusinessLogic.AuthenticationImpl;
+import dk.stoberiet.Data.RoomDAO;
+import dk.stoberiet.Data.RoomDAOImpl;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
@@ -12,35 +17,57 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-/**
- * Created by fede0004@stud.kea.dk on 05-12-2016.
- */
 public class MainMenuController implements Initializable {
-	public Button bookRoom;
-	public Button room;
+	private Authentication authentication;
+	private RoomDAO roomDAO;
 
-    public Text apartmentNumber;
+	@FXML
+	public Button bookRoomButton;
 
-	public void handleBookRoom() throws IOException {
-		Parent root = FXMLLoader.load(getClass().getResource("../Views/BookRoom.fxml"));
-		Stage stage = (Stage) this.bookRoom.getScene().getWindow();
-		stage.setScene(new Scene(root, 600, 400));
-		stage.show();
+	@FXML
+	public Button roomButton;
 
+	@FXML
+	public Button myBookingsButton;
+
+	@FXML
+	public  Text usernameText;
+
+	public MainMenuController(Authentication authentication, RoomDAO roomDAO) {
+		this.authentication = authentication;
+		this.roomDAO = roomDAO;
 	}
 
-	public void handleRooms() throws IOException {
+	public MainMenuController() {
+		this(new AuthenticationImpl(), new RoomDAOImpl());
+	}
+
+	public void BookRoomEvent() throws IOException {
+		Parent root = FXMLLoader.load(getClass().getResource("../Views/BookRoom.fxml"));
+		Stage stage = (Stage) this.bookRoomButton.getScene().getWindow();
+		stage.setScene(new Scene(root, 600, 400));
+		stage.show();
+	}
+
+	public void RoomsEvent() throws IOException {
 		Parent root = FXMLLoader.load(getClass().getResource("../Views/Rooms.fxml"));
-		Stage stage = (Stage) this.room.getScene().getWindow();
+		Stage stage = (Stage) this.roomButton.getScene().getWindow();
+		stage.setScene(new Scene(root, 600, 400));
+		stage.show();
+	}
+
+	public void MyBookingsEvent() throws IOException {
+		Parent root = FXMLLoader.load(getClass().getResource("../Views/MyBookings.fxml"));
+		Stage stage = (Stage) this.roomButton.getScene().getWindow();
 		stage.setScene(new Scene(root, 600, 400));
 		stage.show();
 	}
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        //apartmentNumber.setText(ShowApartmentNumberController.getApartmentNumber());
-
-        //apartmentNumber.setText("wtrtretertre");
+		// Set Username
+		String username = this.authentication.getLoggedInUser().getUsername();
+		this.usernameText.setText(username);
     }
 
 

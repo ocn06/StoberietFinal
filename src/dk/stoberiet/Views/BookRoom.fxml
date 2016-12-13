@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.stoberiet.Controllers.BookRoomController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.stoberiet.Controllers.BookRoomController">
    <children>
       <Text fx:id="usernameText" layoutX="547.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0">
          <font>
@@ -29,13 +29,13 @@
          </font>
       </Label>
       <DatePicker fx:id="selectDateDatePicker" layoutX="212.0" layoutY="108.0" promptText="Vælg dato" />
-      <Label layoutX="214.0" layoutY="160.0" text="Vælg lokale:">
+      <Label layoutX="214.0" layoutY="154.0" text="Vælg lokale:">
          <font>
             <Font name="Verdana Bold" size="12.0" />
          </font>
       </Label>
-      <ComboBox fx:id="selectRoomComboBox" layoutX="210.0" layoutY="175.0" prefHeight="25.0" prefWidth="180.0" promptText="Vælg lokale" />
-      <Button fx:id="bookGoBack" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#bookGoBack" style="-fx-background-color: transparent" text=" &lt; Tilbage">
+      <ComboBox fx:id="selectRoomComboBox" layoutX="210.0" layoutY="169.0" prefHeight="25.0" prefWidth="175.0" promptText="Vælg lokale" />
+      <Button fx:id="bookGoBackButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#bookGoBackEvent" style="-fx-background-color: transparent" text=" &lt; Tilbage">
          <font>
             <Font name="Verdana Bold" size="12.0" />
          </font>
@@ -43,19 +43,22 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="bookButton" disable="true" layoutX="493.0" layoutY="343.0" mnemonicParsing="false" onAction="#bookEvent" style="-fx-background-color: transparent" text="Book ">
+      <Button fx:id="bookButton" disable="true" layoutX="493.0" layoutY="352.0" mnemonicParsing="false" onAction="#bookEvent" style="-fx-background-color: transparent" text="Book ">
          <font>
             <Font name="Verdana Bold" size="12.0" />
          </font>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <TextArea editable="false" layoutX="200.0" layoutY="241.0" prefHeight="80.0" prefWidth="200.0" text="Betingelser står her" />
-      <Label layoutX="214.0" layoutY="218.0" text="Betingelser:">
+      <TextArea editable="false" layoutX="210.0" layoutY="228.0" prefHeight="111.0" prefWidth="231.0" text="- Oprydning og rengøring af lokale&#10;indenfor bookningstid&#10;&#10;- Afbestilling af lokale senest to dage&#10;inden for tilbagebetaling af gebyr&#10;&#10;- hfdkfjdojs dfsjdo djfosgd&#10;&#10;- jfdosg pskdgosjdg sdogjosdgjåsajgd&#10;" />
+      <Label layoutX="215.0" layoutY="213.0" text="Betingelser:">
          <font>
             <Font name="Verdana Bold" size="12.0" />
          </font>
       </Label>
-      <CheckBox fx:id="acceptTermsCheckBox" layoutX="232.0" layoutY="335.0" mnemonicParsing="false" onAction="#acceptTermsEvent" text="Accepter betingelser" />
+      <CheckBox fx:id="acceptTermsCheckBox" layoutX="210.0" layoutY="355.0" mnemonicParsing="false" onAction="#acceptTermsEvent" text="Accepter betingelser">
+         <font>
+            <Font name="Verdana Bold" size="13.0" />
+         </font></CheckBox>
    </children>
 </Pane>

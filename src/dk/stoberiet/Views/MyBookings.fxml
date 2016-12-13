@@ -8,14 +8,14 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.stoberiet.Controller.BookRoomController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.stoberiet.Controllers.MyBookingsController">
    <children>
       <Text layoutX="216.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Støberiet">
          <font>
             <Font name="System Bold" size="38.0" />
          </font>
       </Text>
-      <Button fx:id="myBookingsGoBack" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#bookGoBack" style="-fx-background-color: transparent" text=" &lt; Tilbage">
+      <Button fx:id="myBookingsGoBack" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#MyBookingsGoBackEvent" style="-fx-background-color: transparent" text=" &lt; Tilbage">
          <font>
             <Font name="Verdana Bold" size="12.0" />
          </font>
@@ -28,8 +28,8 @@
             <Font name="Verdana Bold" size="12.0" />
          </font>
       </Label>
-      <TextArea fx:id="showBookings" editable="false" layoutX="119.0" layoutY="100.0" prefHeight="200.0" prefWidth="357.0" promptText="Du har ingen bookninger" />
-      <Text fx:id="apartmentNumber" layoutX="547.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0">
+      <TextArea fx:id="showBookingsTextArea" editable="false" layoutX="119.0" layoutY="100.0" prefHeight="200.0" prefWidth="357.0" promptText="Du har ingen bookninger" />
+      <Text fx:id="usernameText" layoutX="547.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0">
          <font>
             <Font name="Verdana Bold" size="12.0" />
          </font>

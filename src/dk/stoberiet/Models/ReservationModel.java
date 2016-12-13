@@ -70,4 +70,16 @@ public class ReservationModel {
     public void setRoomId(int roomId) {
         this.roomId = roomId;
     }
+
+    @Override
+    public String toString() {
+        return "Reservation" +
+                "Reservations id =" + id +
+                "\n start =" + start +
+                "\n end =" + end +
+                "\n dato =" + timestamp +
+                " userId=" + userId +
+                ", roomId=" + roomId +
+                '}';
+    }
 }

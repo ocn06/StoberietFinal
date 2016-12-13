@@ -22,11 +22,6 @@ public class LoginController {
 	@FXML
 	private PasswordField passwordTextfield;
 
-//	static private int apartmentNumber;
-//
-//	public static int getApartmentNumber() {
-//		return apartmentNumber;
-//	}
 
 	public LoginController(Authentication authentication) {
 		this.authentication = authentication;
@@ -36,6 +31,7 @@ public class LoginController {
 		this(new AuthenticationImpl());
 	}
 
+	@FXML
 	public void handleLogin() throws IOException {
 		// Get username and password entered by the user
 		String username = this.usernameTextfield.getText();
@@ -56,39 +52,34 @@ public class LoginController {
 				default:
 					throw new UnsupportedOperationException("RoleType is not supported: " + userModel.getRole().name());
 			}
-
 			return;
 		}
-
 		// Show error
 		this.showValidationError();
 	}
 
-	private void showUserView() throws IOException
-	{
+	@FXML
+	private void showUserView() throws IOException {
 		Parent root = FXMLLoader.load(getClass().getResource("../Views/MainMenu.fxml"));
 		Stage stage = (Stage) this.usernameTextfield.getScene().getWindow();
 		stage.setScene(new Scene(root, 600, 400));
 		stage.show();
-
-		//ShowApartmentNumberController.setApartmentNumber(credentialModel.getUsername());
-		//this.apartmentNumber = Integer.parseInt(credentialModel.getUsername());
 	}
 
-	private void showAdminView() throws IOException
-	{
+	@FXML
+	private void showAdminView() throws IOException {
 		Parent root = FXMLLoader.load(getClass().getResource("../Views/MainMenuAdmin.fxml"));
 		Stage stage = (Stage) this.usernameTextfield.getScene().getWindow();
 		stage.setScene(new Scene(root, 600, 400));
 		stage.show();
 	}
 
-	private void showValidationError()
-	{
-		Alert alert = new Alert(Alert.AlertType.ERROR);
-		alert.setTitle("Oops");
-		alert.setHeaderText("Forkert brugernavn eller adgangskode");
-		alert.setContentText("Prøv igen!");
-		alert.showAndWait();
+	@FXML
+	private void showValidationError() {
+		WindowUtility.showWindow(
+				Alert.AlertType.ERROR,
+				"Oops",
+				"Forkert brugernavn eller adgangskode",
+				"Prøv igen!");
 	}
 }

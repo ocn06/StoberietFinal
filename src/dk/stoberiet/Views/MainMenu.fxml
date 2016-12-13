@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane fx:id="Rooms" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.stoberiet.Controllers.MainMenuController">
+<Pane fx:id="Rooms" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.stoberiet.Controllers.MainMenuController">
    <children>
       <Text layoutX="216.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Støberiet">
          <font>
@@ -27,14 +27,14 @@
             <ButtonBar prefHeight="40.0" prefWidth="200.0" />
         </buttons>
       </ButtonBar>
-      <Button fx:id="room" layoutX="216.0" layoutY="189.0" mnemonicParsing="false" onMouseClicked="#handleRooms" style="-fx-background-color: transparent" text="Lokaler">
+      <Button fx:id="roomButton" layoutX="216.0" layoutY="189.0" mnemonicParsing="false" onMouseClicked="#RoomsEvent" style="-fx-background-color: transparent" text="Lokaler">
          <font>
             <Font name="Verdana Bold" size="12.0" />
          </font>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button fx:id="bookRoom" layoutX="216.0" layoutY="223.0" mnemonicParsing="false" onMouseClicked="#handleBookRoom" style="-fx-background-color: transparent" text="Book lokale">
+      <Button fx:id="bookRoomButton" layoutX="216.0" layoutY="223.0" mnemonicParsing="false" onMouseClicked="#BookRoomEvent" style="-fx-background-color: transparent" text="Book lokale">
          <font>
             <Font name="Verdana Bold" size="12.0" />
          </font>
@@ -42,7 +42,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="changeDeleteBooking" layoutX="216.0" layoutY="258.0" mnemonicParsing="false" style="-fx-background-color: transparent" text="Ændr/slet bookning">
+      <Button fx:id="changeDeleteBookingButton" layoutX="216.0" layoutY="258.0" mnemonicParsing="false" style="-fx-background-color: transparent" text="Ændr/slet bookning">
          <font>
             <Font name="Verdana Bold" size="12.0" />
          </font>
@@ -50,7 +50,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="myBookings" layoutX="217.0" layoutY="292.0" mnemonicParsing="false" style="-fx-background-color: transparent" text="Mine bookninger">
+      <Button fx:id="myBookingsButton" layoutX="217.0" layoutY="292.0" mnemonicParsing="false" onAction="#MyBookingsEvent" style="-fx-background-color: transparent" text="Mine bookninger">
          <font>
             <Font name="Verdana Bold" size="12.0" />
          </font>
@@ -58,7 +58,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="myInformation" layoutX="216.0" layoutY="327.0" mnemonicParsing="false" style="-fx-background-color: transparent" text="Mine oplysninger">
+      <Button fx:id="myInformationButton" layoutX="216.0" layoutY="327.0" mnemonicParsing="false" style="-fx-background-color: transparent" text="Mine oplysninger">
          <font>
             <Font name="Verdana Bold" size="12.0" />
          </font>
@@ -66,7 +66,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Text fx:id="apartmentNumber" layoutX="547.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0">
+      <Text fx:id="usernameText" layoutX="547.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0">
          <font>
             <Font name="Verdana Bold" size="12.0" />
          </font>
