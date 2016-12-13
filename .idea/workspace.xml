@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb9abea-38ba-418f-b80f-e1b467dcc990" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/ShowApartmentNumberController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Views/Terms.fxml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/TermsController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/MyBookingsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Models/ReservationModel.class" afterPath="$PROJECT_DIR$/out/production/Stoberiet/dk/stoberiet/Models/ReservationModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/BookRoomController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/BookRoomController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/LoginController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/MainMenuController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/MainMenuController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/RoomsController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/RoomsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Data/MySqlDatabaseHelper.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/MySqlDatabaseHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Data/ReservationDAO.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/ReservationDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Data/ReservationDAOImpl.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Data/ReservationDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Models/ReservationModel.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Models/ReservationModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Views/BookRoom.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/BookRoom.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Views/MainMenu.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/MainMenu.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Views/MainMenuAdmin.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/MainMenuAdmin.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Views/MyBookings.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/MyBookings.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Views/Rooms.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/Rooms.fxml" />
     </list>
     <ignored path="Stoberiet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,19 +57,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainMenuAdmin.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Views/MainMenuAdmin.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="282" selection-start-line="10" selection-start-column="282" selection-end-line="10" selection-end-column="282" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainMenuController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/MainMenuController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthenticationImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AuthenticationImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/AuthenticationImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="526">
@@ -149,6 +118,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-225">
               <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WindowUtility.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/WindowUtility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -234,12 +213,12 @@
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Models/ReservationModel.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controllers/MyBookingsController.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controllers/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/dk/stoberiet/Controllers/WindowUtility.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Views/BookRoom.fxml" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/ReservationDAO.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/MySqlDatabaseHelper.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controllers/BookRoomController.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Data/ReservationDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/Controllers/WindowUtility.java" />
       </list>
     </option>
   </component>
@@ -980,7 +959,7 @@
       <workItem from="1481382956717" duration="508000" />
       <workItem from="1481385145291" duration="58329000" />
       <workItem from="1481497075473" duration="21529000" />
-      <workItem from="1481574760681" duration="15507000" />
+      <workItem from="1481574760681" duration="15842000" />
     </task>
     <task id="LOCAL-00001" summary="ReservationModel&#10;BookRoomController&#10;">
       <created>1481018004920</created>
@@ -1031,11 +1010,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481497460838</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="o">
+      <created>1481628332742</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1481628332742</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145984000" />
+    <option name="totallyTimeSpent" value="146319000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1120,7 +1106,8 @@
     <MESSAGE value="olivia" />
     <MESSAGE value="initialCommit" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="o" />
+    <option name="LAST_COMMIT_MESSAGE" value="o" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1356,16 +1343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/WindowUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Views/BookRoom.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -1467,6 +1444,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
           <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/WindowUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
