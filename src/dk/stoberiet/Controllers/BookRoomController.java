@@ -69,7 +69,6 @@ public class BookRoomController implements Initializable {
     }
 
     public boolean bookRoom() throws IOException {
-	    System.out.println("bookRoomEvent");
 
 	    // TODO : GUARD AGAINST VALUES NOT BEING SELECTED ELSE THIS WILL THROW AN EXCEPTION
 

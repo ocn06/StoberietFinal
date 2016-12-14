@@ -62,8 +62,6 @@ public class ReservationDAOImpl implements ReservationDAO {
     @Override
     public boolean isReservationDateAvailable(LocalDateTime start, LocalDateTime end, int roomId) {
 
-        // TODO ADD ROOM ID CHECK
-
         Integer count = this.databaseHelper.<Integer>querySingle(
                 "SELECT COUNT(1) FROM reservations WHERE(start < ? AND end > ? AND roomId = ?)",
                 (statement) -> {

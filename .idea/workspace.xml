@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb9abea-38ba-418f-b80f-e1b467dcc990" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Data/CheckedAction.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/DAO/CheckedAction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Data/CheckedFunction.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/DAO/CheckedFunction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Data/DatabaseHelper.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/DAO/DatabaseHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Data/MySqlDatabaseHelper.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/DAO/MySqlDatabaseHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Data/ReservationDAO.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/DAO/ReservationDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Data/ReservationDAOImpl.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/DAO/ReservationDAOImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Data/RoomDAO.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/DAO/RoomDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Data/RoomDAOImpl.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/DAO/RoomDAOImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Data/UserDAO.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/DAO/UserDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Data/UserDAOImpl.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/DAO/UserDAOImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stoberiet.iml" afterPath="$PROJECT_DIR$/Stoberiet.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/AuthenticationImpl.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/BusinessLogic/AuthenticationImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/BookRoomController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/BookRoomController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/MainMenuAdminController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/MainMenuAdminController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/MainMenuController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/MainMenuController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/MyBookingsController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/MyBookingsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/RoomsController.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Controllers/RoomsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/Views/BookRoom.fxml" afterPath="$PROJECT_DIR$/src/dk/stoberiet/Views/BookRoom.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/stoberiet/DAO/ReservationDAOImpl.java" afterPath="$PROJECT_DIR$/src/dk/stoberiet/DAO/ReservationDAOImpl.java" />
     </list>
     <ignored path="Stoberiet.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,8 +59,8 @@
       <file leaf-file-name="ReservationDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/DAO/ReservationDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -105,11 +89,11 @@
       <file leaf-file-name="ReservationDAOImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/DAO/ReservationDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1229">
-              <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
+            <state relative-caret-position="7">
+              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2349#2358#0" expanded="true" />
+                <element signature="e#2314#2323#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,8 +112,8 @@
       <file leaf-file-name="BookRoomController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/BookRoomController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+            <state relative-caret-position="219">
+              <caret line="97" column="65" selection-start-line="97" selection-start-column="65" selection-end-line="97" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -151,8 +135,8 @@
       <file leaf-file-name="WindowUtility.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/WindowUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="400">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -193,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/dk/stoberiet/Main.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controller/MainMenuController.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controller/Terms.fxml" />
@@ -244,6 +227,7 @@
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controllers/MyBookingsController.java" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Views/BookRoom.fxml" />
         <option value="$PROJECT_DIR$/src/dk/stoberiet/Controllers/BookRoomController.java" />
+        <option value="$PROJECT_DIR$/src/dk/stoberiet/DAO/ReservationDAOImpl.java" />
       </list>
     </option>
   </component>
@@ -368,7 +352,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
+              <option name="myItemId" value="DAO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stoberiet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stoberiet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stoberiet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,7 +391,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -927,7 +933,7 @@
       <workItem from="1481385145291" duration="58329000" />
       <workItem from="1481497075473" duration="21529000" />
       <workItem from="1481574760681" duration="19413000" />
-      <workItem from="1481658095430" duration="4660000" />
+      <workItem from="1481658095430" duration="9433000" />
     </task>
     <task id="LOCAL-00001" summary="ReservationModel&#10;BookRoomController&#10;">
       <created>1481018004920</created>
@@ -992,7 +998,14 @@
       <option name="project" value="LOCAL" />
       <updated>1481628647587</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="o">
+      <created>1481665743298</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1481665743298</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1007,7 +1020,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154550000" />
+    <option name="totallyTimeSpent" value="159323000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1020,7 +1033,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="0" width="1924" height="1030" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1029,13 +1042,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.049457178" sideWeight="0.5021834" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39806998" sideWeight="0.4978166" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20627262" sideWeight="0.4978166" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26091704" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24508734" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1392,22 +1405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/WindowUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/DAO/ReservationDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Views/BookRoom.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -1435,17 +1432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/DAO/ReservationDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1229">
-          <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2349#2358#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1454,10 +1440,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/WindowUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/DAO/ReservationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/DAO/ReservationDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2314#2323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dk/stoberiet/Controllers/BookRoomController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+        <state relative-caret-position="219">
+          <caret line="97" column="65" selection-start-line="97" selection-start-column="65" selection-end-line="97" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -1468,6 +1481,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Stoberiet</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
